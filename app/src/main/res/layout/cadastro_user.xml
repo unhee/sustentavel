@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <EditText
+        android:id="@+id/cadastroRGJogador4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Digite aqui seu @android:string/defaultVoiceMailAlphaTag"
+        android:inputType="number"
+        android:text="65220145"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastroRGJogador" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="26dp"
+        android:text="Cadastro de Usuario"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cadastroNomeJogador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="38dp"
+        android:onClick="JogadorCadastrado"
+        android:text="Cadastrar"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastroRGJogador4" />
+
+
+    <EditText
+        android:id="@+id/cadastroNomeJogador"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Digite aqui seu nome completo"
+        android:inputType="textPersonName"
+        android:text="Abilio da silva"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cadastroRGJogador2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <EditText
+        android:id="@+id/cadastroRGJogador"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="Digite aqui seu telefone"
+        android:inputType="number"
+        android:text="3366698544"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cadastroRGJogador4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastroRGJogador3" />
+
+    <EditText
+        android:id="@+id/cadastroRGJogador2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Digite aqui seu @android:string/defaultVoiceMailAlphaTag"
+        android:inputType="textEmailAddress"
+        android:text="abilio@email.com"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cadastroRGJogador3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastroNomeJogador" />
+
+    <EditText
+        android:id="@+id/cadastroRGJogador3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Digite aqui seu @android:string/defaultVoiceMailAlphaTag"
+        android:inputType="number"
+        android:text="35"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cadastroRGJogador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastroRGJogador2" />
+
+
+</android.support.constraint.ConstraintLayout>

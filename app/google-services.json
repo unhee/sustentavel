@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "276051727590",
+    "firebase_url": "https://sustentavel-d9911.firebaseio.com",
+    "project_id": "sustentavel-d9911",
+    "storage_bucket": "sustentavel-d9911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276051727590:android:8ac05beba759925d",
+        "android_client_info": {
+          "package_name": "com.example.unhee.sustentavel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276051727590-q7n88vuq9j77nec9sk1cspplu2ujqo39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5j6Hx_8mPf3eirBiMW-D_LoEvZye-sR4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
